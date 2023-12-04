@@ -1,0 +1,50 @@
+/* src/InstructionSteps.css */
+.Instruction-Steps {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-image: url('https://img.freepik.com/free-vector/neumorphic-round-shape-design-empty-white-banner_1017-43171.jpg?w=996&t=st=1699457076~exp=1699457676~hmac=c3cc1f5c306093e41bdf7979cf3fe1441ef9d9dca858d5715556214836dfac3e'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
+  }
+  
+  .Instruction-Steps:hover {
+    transform: scale(1.05); 
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .box {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
+  }  
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    margin-bottom: 16px;
+  }
+  
+  ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  

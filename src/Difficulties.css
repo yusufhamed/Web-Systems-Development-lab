@@ -1,0 +1,23 @@
+/* src/Difficulties.css */
+.box {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .box:hover {
+    transform: scale(1.05); /* Increase the scale on hover */
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    margin-bottom: 16px;
+  }
+  
